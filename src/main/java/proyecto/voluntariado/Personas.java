@@ -50,4 +50,25 @@ public class Personas {
     public Resto getResto() {
         return resto;
     }
+    
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPrimerApellido(String primerApellido) {
+        this.primerApellido = primerApellido;
+    }
+
+    public void setSegundoApellido(String segundoApellido) {
+        this.segundoApellido = segundoApellido;
+    }
+
+    public void setRut(String rut) {
+        this.rut = rut;
+    }
+
+    public void setInformacionPersonalList(List<InformacionPersonal> informacionPersonalList) {
+        this.informacionPersonalList = informacionPersonalList;
+    }
+
 }

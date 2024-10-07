@@ -18,17 +18,33 @@ public class InformacionPersonal {
     public String getGenero() {
         return genero;
     }
+    
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
 
     public String getFechaNacimiento() {
         return fechaNacimiento;
+    }
+    
+    public void setFechaNacimiento(String fechaNacimiento){
+        this.fechaNacimiento = fechaNacimiento;
     }
 
     public String getCorreo() {
         return correo;
     }
+    
+    public void setCorreo(String correo){
+        this.correo = correo;
+    }
 
     public int getNumero() {
         return numero;
+    }
+    
+    public void setNumero(int numero){
+        this.numero = numero;
     }
 
     public String getRegion() {

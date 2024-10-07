@@ -11,6 +11,9 @@ public class Administrativo extends Personas {
     public String getArea() {
         return area;
     }
+    public void setArea(String area){
+        this.area = area;
+    }
 
     @Override
     public String getNombre() {
